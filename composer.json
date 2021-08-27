@@ -1,0 +1,28 @@
+{
+    "name": "mutationevnt/multipolls",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "achraf",
+            "email": "achraf.b@mutationevent.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5|~6|~7|~8"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "phpunit/phpunit": "~4.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mutationevent\\Multipolls\\MultipollsServiceProvider"
+            ],
+            "aliases": {
+                "MultiPoll": "Mutationevent\\Multipolls\\MultipollsFacade"
+            }
+        }
+    }
+}
