@@ -1,5 +1,5 @@
 {
-    "name": "mutationevnt/multipolls",
+    "name": "mutationevent/multipolls",
     "description": "A Laravel package to create multi questions polls",
     "keywords": ["polls", "votes", "laravel", "php"],
     "type": "library",
